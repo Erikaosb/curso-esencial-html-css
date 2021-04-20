@@ -77,29 +77,36 @@ h2 {
 
 }
 
-h1 p {
+/* h1 + p {
   margin-bottom: 64px;
-}
+} */
 
 hr {
   margin: 64px 0;
-}
+  /*bacground: red; */
+  }
 
 
 h2 {
-  font-size: 2cm;
-  margin: 40px 0;
+  font-size: 2em;
+  margin: 64px 0 40px;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 1.5cm;
   margin-top: 16px;
   margin-bottom: 24px;
+  font-weight: normal;
 }
 
 pre {
   background: #FEC62E;
 
+}
+
+blockquote {
+  margin: 32px 0;
 }
 
 .hero {
@@ -108,6 +115,23 @@ pre {
   /* background-position: left 50px bottom -50px; */
   /* background-size: cover; */
   height: 350px;
+}
+
+.section-content {
+margin-top: 164px;
+}
+.section-content: :first-of-type {
+  margin: 0;
+}
+
+.section-content ol li {
+  line-height: 24px;
+}
+.section-content ul li {
+  margin-bottom: 16px;
+}
+.section-content + hr {
+  display: none;
 }
 
 .section-content img {
